@@ -1,3 +1,14 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+getTopicsApi:
+  path:       /api/v1/get-topics
+  controller: App\Api\StarWarsController::getTopicList
+  methods:    POST
+
+getPeopleApi:
+  path:       /api/v1/get-people
+  controller: App\Api\PeopleController::getList
+  methods:    POST
+
+index:
+  path:       /
+  controller: App\Controller\IndexController::index
+  methods:    GET
