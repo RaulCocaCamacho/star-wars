@@ -12,7 +12,8 @@ _git clone https://github.com/RaulCocaCamacho/star-wars.git_
 
 En la raiz del proyecto 
 
-composer install
+<code>composer install
+</code>
 
 Ejecutar este comando para iniciar el servidor
 
