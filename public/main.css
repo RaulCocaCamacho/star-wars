@@ -1,0 +1,25 @@
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: "Droid Sans", arial, verdana, sans-serif;
+    font-weight: 700;
+    color: #ff6;
+    background-color: #000;
+}
+.table td {
+    margin: 0 15px 0 0;
+}
+.table input{
+    background: black;
+    border: none;
+}
+
+img.logo {
+    width: 400px;
+
+}
+
+.topics {
+    margin: 30px;
+}
