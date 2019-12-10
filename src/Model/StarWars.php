@@ -14,23 +14,24 @@ class StarWars extends StarWarsApi {
 
     const FILMS = 'films';
     const PEOPLE = 'people';
-    const PLANET = 'plane';
+    const PLANET = 'planets';
     const SPECIES = 'species';
     const STARSHIPS = 'starships';
     const VEHICLES = 'vehicles';
 
-    public function __construct() {
+    public function __construct($topic = null) {
         parent::__construct();
+        $this->topic = $topic;
     }
 
     public function getList() {
         try {
             $this->request([$this->topic]);
             if(!empty($this->topic)){
-                $this->count = $this->response->count;
-                $this->next = $this->response->next;
-                $this->previous = $this->response->previous;
-                $this->results = $this->response->results;
+                $this->count = $this->response['count'];
+                $this->next = $this->response['next'];
+                $this->previous = $this->response['previous'];
+                $this->results = $this->response['results'];
             }else{
                 $this->results = $this->response;
             }

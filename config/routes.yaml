@@ -3,10 +3,11 @@ getTopicsApi:
   controller: App\Api\StarWarsController::getTopicList
   methods:    POST
 
-getPeopleApi:
-  path:       /api/v1/get-people
-  controller: App\Api\PeopleController::getList
+getList:
+  path:       /api/v1/get-list/{topic}
+  controller: App\Api\StarWarsController::getList
   methods:    POST
+  defaults:  { topic: null }
 
 index:
   path:       /

@@ -20,7 +20,7 @@ class StarWarsApi {
         $response = $client->request($method, $url);
 
         try {
-            $this->response = json_decode($response->getContent());
+            $this->response = json_decode($response->getContent(), true);
 
             if (!empty($this->response)) {
                 return $this->response;

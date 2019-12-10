@@ -14,4 +14,10 @@ class StarWarsController {
         $topicList = $starWars->getList();
         return $topicList;
     }
+
+    public function getList($topic) {
+        $object = new StarWars($topic);
+        $object = $object->getList();
+        return $object;
+    }
 }
