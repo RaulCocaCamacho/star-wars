@@ -25,9 +25,7 @@ $(function () {
     };
 
     $('.topics table').on('click', 'input', function (event) {
-        console.log('event', event)
-        console.log('value', this.value)
-
+        $('.list').html('');
         $(".spinner").show()
         $.ajax({
             url: "http://127.0.0.1:8000/api/v1/get-list/" +  this.value,
@@ -37,12 +35,10 @@ $(function () {
     });
 
     var printList =  (list) => {
-        console.log(list)
         var table = arrayToTable(list, {
             thead: true,
             attrs: {class: 'table'}
         });
-        $('.list').html('')
         $(".spinner").hide()
         $('.list').append(table);
     }
