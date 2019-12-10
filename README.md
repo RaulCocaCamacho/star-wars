@@ -31,5 +31,5 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 ## Autor ✒️
 
-* **Raúl Coca** - *Desarrollador del proyecto* - [villanuevand](https://github.com/RaulCocaCamacho)
+* **Raúl Coca** - *Desarrollador del proyecto* - (https://github.com/RaulCocaCamacho)
 
