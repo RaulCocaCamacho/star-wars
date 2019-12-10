@@ -8,16 +8,16 @@ Instalar composer (https://getcomposer.org/download/)
 
 Descargar el proyecto:
 
-_git clone https://github.com/RaulCocaCamacho/star-wars.git_
+<code>git clone https://github.com/RaulCocaCamacho/star-wars.git</code>
 
 En la raiz del proyecto 
 
-<code>composer install
-</code>
+<code>composer install</code>
 
 Ejecutar este comando para iniciar el servidor
 
-symfony server:start
+<code>symfony server:start</code>
+
 
 _Abrir http://localhost:8000/ en el navegador_
 
