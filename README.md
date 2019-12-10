@@ -26,9 +26,9 @@ _Abrir http://localhost:8000/ en el navegador_
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Symfony](https://symfony.com/) - El framework web usado
-* [JQuery](https://jquery.com/) - Framework para la vista
-* [Bootstrap](https://getbootstrap.com/) - Biblioteca css
+* [Symfony 5.0.*](https://symfony.com/) - El framework web usado
+* [JQuery 3.4.1](https://jquery.com/) - Framework para el cliente
+* [Bootstrap 3.4.1](https://getbootstrap.com/) - Biblioteca css
 
 ## Autor ✒️
 
